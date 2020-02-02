@@ -5,11 +5,13 @@ import {About} from './containers/About/About';
 import {Contact} from './containers/Contact/Contact';
 import {Layout} from './components/Layout/Layout';
 import {NavigationBar} from './components/NavigationBar/NavigationBar';
+import {Jumbotron} from './components/Jumbotron/Jumbotron';
 
 function App() {
   return (
     <React.Fragment>
       <NavigationBar/>
+      <Jumbotron/>
       <Layout>
         <Router>
           <Switch>
