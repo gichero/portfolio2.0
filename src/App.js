@@ -7,10 +7,11 @@ import {Projects} from './containers/Projects/Projects';
 import {Layout} from './components/Layout/Layout';
 import {NavigationBar} from './components/NavigationBar/NavigationBar.js';
 import {Jumbotron} from './components/Jumbotron/Jumbotron';
+import './App.css';
 
 function App() {
   return (
-    <React.Fragment>
+    <React.Fragment className="App">
       <NavigationBar/>
       <Jumbotron/>
       <Layout>

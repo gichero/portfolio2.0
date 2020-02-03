@@ -23,11 +23,12 @@ const Styles = styled.div`
         z-index: -1;
     }
     .intro{
-        font-size: 3em;
-        font-weight: bold;
+        font-size: 4em;
+        color: yellow;
+        font-weight: 400;
     }
     .pararaph{
-        font-size: 2em;
+        font-size: 5em;
     }
 `;
 

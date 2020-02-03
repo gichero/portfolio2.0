@@ -6,12 +6,16 @@ import styled from 'styled-components';
 const Styles = styled.div`
  .navbar {
      background-color: #99CCFF;
-     radius: 1;
+     border-radius: 5;
  }
 
  .navbar-brand, .navbar-nav .nav-link{
      color: black;
      font-size: 1.2em;
+     font-weight: 300;
+     padding: 15px;
+     margin-left: 30px;
+     margin-right: 30px;
 
      &:hover {
          color: white;
