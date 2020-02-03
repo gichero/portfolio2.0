@@ -3,8 +3,9 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Home} from './containers/Home/Home';
 import {About} from './containers/About/About';
 import {Contact} from './containers/Contact/Contact';
+import {Projects} from './containers/Projects/Projects';
 import {Layout} from './components/Layout/Layout';
-import {NavigationBar} from './components/NavigationBar/NavigationBar';
+import {NavigationBar} from './components/NavigationBar/NavigationBar.js';
 import {Jumbotron} from './components/Jumbotron/Jumbotron';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/projects" component={Projects}/>
           </Switch>
         </Router>
       </Layout>

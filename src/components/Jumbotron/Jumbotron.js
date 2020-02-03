@@ -22,6 +22,13 @@ const Styles = styled.div`
         right: 0;
         z-index: -1;
     }
+    .intro{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .pararaph{
+        font-size: 2em;
+    }
 `;
 
 export const Jumbotron = () => (
@@ -29,8 +36,8 @@ export const Jumbotron = () => (
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container>
-                <h1>Welcome</h1>
-                <p>Code is life</p>
+                <h1 className="intro">Welcome</h1>
+                <p className="paragraph">Code is life</p>
             </Container>
         </Jumbo>
     </Styles>
