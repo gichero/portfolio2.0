@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Styles = styled.div`
  .navbar {
      background-color: #000000;
-     border-radius: 2px;
+     border-radius: 1px;
  }
 
  .navbar-nav .nav-link{
@@ -16,6 +16,7 @@ const Styles = styled.div`
      padding: 15px;
      margin-left: 20px;
      margin-right: 20px;
+     text-align: center;
 
      &:hover {
          color: #e61010;
@@ -34,6 +35,11 @@ const Styles = styled.div`
         color: #e61010;
     }
  }
+ 
+ .navbar-toggler-icon{
+    background-color: white;
+    border-radius: 1px
+ }
 `;
 
 export const NavigationBar = () => (
@@ -42,8 +48,8 @@ export const NavigationBar = () => (
             <Navbar.Brand href="/">
                 <img
                 src="/g-red.png"
-                width="40"
-                height="40"
+                width="41"
+                height="45"
                 className="d-inline-block align-top"
                 alt=" "
                 />

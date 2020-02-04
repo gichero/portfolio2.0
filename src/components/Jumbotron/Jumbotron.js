@@ -22,13 +22,10 @@ const Styles = styled.div`
         right: 0;
         z-index: -1;
     }
-    .intro{
-        font-size: 4em;
-        color: yellow;
-        font-weight: 400;
-    }
-    .pararaph{
-        font-size: 5em;
+    #quote{
+        color: white;
+        font-weight: 500;
+        position: absolute; 
     }
 `;
 
@@ -37,8 +34,7 @@ export const Jumbotron = () => (
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container>
-                <h1 className="intro">Welcome</h1>
-                <p className="paragraph">Code is life</p>
+                <p id="quote">Difficulties strengthen the mind, as labor does the body. 'Seneca'</p>
             </Container>
         </Jumbo>
     </Styles>
