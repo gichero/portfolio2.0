@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <React.Fragment className="App">
+    <React.Fragment>
       <NavigationBar/>
       <Jumbotron/>
       <Layout>
@@ -19,8 +19,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
-            <Route path="/contact" component={Contact}/>
             <Route path="/projects" component={Projects}/>
+            <Route path="/contact" component={Contact}/>
           </Switch>
         </Router>
       </Layout>
