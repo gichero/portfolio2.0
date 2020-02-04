@@ -3,19 +3,17 @@ import React from 'react';
 export const Home = () => (
 
     <div>
-        <h2>Hello Amos Here</h2>
+        <h2>Hi, I'm Amos Gichero</h2>
         <p>
-            Bacon ipsum dolor amet prosciutto porchetta turducken ribeye ham burgdoggen venison shankle pancetta kielbasa. Alcatra porchetta shank andouille ground round tri-tip. Pork loin capicola ball tip alcatra pancetta. Doner pastrami salami brisket boudin drumstick capicola kielbasa tail.
-
-            Jowl filet mignon flank, ribeye pig ham hock tail pancetta kielbasa shoulder cupim doner porchetta. Turkey spare ribs prosciutto chislic strip steak jerky jowl bresaola kevin salami sausage short ribs pork belly buffalo. Drumstick hamburger sirloin ground round. Short loin shank leberkas ribeye kielbasa. Burgdoggen ball tip spare ribs andouille turkey jowl jerky meatball boudin pork prosciutto corned beef.
-
-            Pork belly short loin meatloaf porchetta doner ball tip sausage shank pastrami swine shankle capicola biltong. Drumstick shoulder pastrami landjaeger. Beef ribs pastrami tenderloin spare ribs, leberkas pork loin porchetta drumstick. Leberkas t-bone chislic, tenderloin strip steak chicken shoulder tongue spare ribs capicola shankle rump. Leberkas rump venison brisket ribeye, tongue meatball boudin tenderloin tail chuck cow. Rump venison tongue sirloin sausage pork loin fatback drumstick ham hock ground round, porchetta chicken.
-
-            Jerky bacon venison kevin. Tri-tip beef ribs strip steak cupim. Spare ribs sausage turducken pork loin, biltong doner t-bone. Flank shoulder jowl, jerky shank filet mignon boudin burgdoggen. Shank fatback ham salami picanha ground round. Chislic pork loin tri-tip, kielbasa pig beef boudin tongue andouille pork belly spare ribs corned beef meatloaf jerky pork chop. Tail ham chicken, beef ribs tongue pork andouille beef fatback.
-
-            Short loin drumstick venison flank bacon beef tail buffalo turducken andouille shank leberkas pork chop. Doner strip steak capicola chislic bresaola. Doner tri-tip capicola leberkas frankfurter chislic pork loin jowl ribeye landjaeger flank. Tri-tip short loin bresaola, venison spare ribs cow sausage. Frankfurter fatback t-bone shank.
-
-            Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+        I'm a Full Stack Web Developer living in Atlanta, GA. 
+        I'm originally from New Orleans and attended the University of Georgia
+        for my undergraduate degree where I majored in Psychology. 
+        Upon graduation I moved to Washington, DC and began working on Capitol Hill for David Vitter, a US Senator from Louisiana. 
+        After many years in the political realm I decided I was ready for a new challenge. 
+        I've always loved science and technology so web development was a perfect fit for my next endeavor.
+        I spent a year teaching myself coding through online tutorials (and a lot of trial and error!)
+        and building websites and games for myself and friends. I realized I loved programming and wanted to pursue web development as a career. 
+        I graduated from DigitalCrafts' four month, full-time immersive coding bootcamp in June of 2017.
         </p>  
     </div>
     

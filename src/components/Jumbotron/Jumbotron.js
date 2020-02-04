@@ -1,7 +1,8 @@
 import React from 'react';
-import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
+import {Jumbotron as Jumbo} from 'react-bootstrap';
 import styled from 'styled-components';
 import grayscaleCrop from '../../assets/backgroundImages/grayscaleCrop.jpg';
+
 
 const Styles = styled.div`
     .jumbo{
@@ -14,7 +15,7 @@ const Styles = styled.div`
     }
     .overlay{
         background-color: #000;
-        opacity: 0.2;
+        opacity: 0.4;
         position: absolute;
         top: 0;
         left: 0;
@@ -23,9 +24,12 @@ const Styles = styled.div`
         z-index: -1;
     }
     #quote{
-        color: white;
+        color: yellow;
+        font-size: 0.9em;
         font-weight: 500;
-        position: absolute; 
+        font-style: italic;
+        padding: 25px;
+        margin-top: 250px;
     }
 `;
 
@@ -33,9 +37,7 @@ export const Jumbotron = () => (
     <Styles>
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
-            <Container>
-                <p id="quote">Difficulties strengthen the mind, as labor does the body. 'Seneca'</p>
-            </Container>
+            <p id="quote">Difficulties strengthen the mind, as labor does the body. 'Seneca'</p>
         </Jumbo>
     </Styles>
 )

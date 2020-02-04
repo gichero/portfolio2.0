@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Home} from './containers/Home/Home';
-import {About} from './containers/About/About';
 import {Contact} from './containers/Contact/Contact';
 import {Projects} from './containers/Projects/Projects';
 import {Layout} from './components/Layout/Layout';
@@ -18,7 +17,6 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/contact" component={Contact}/>
           </Switch>
