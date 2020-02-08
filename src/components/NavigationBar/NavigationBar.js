@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styled from 'styled-components';
+import { GoHome } from "react-icons/go";
 
 const Styles = styled.div`
  .navbar {
@@ -40,20 +41,14 @@ const Styles = styled.div`
     background-color: white;
     border-radius: 1px
  }
+ 
 `;
 
 export const NavigationBar = () => (
     <Styles>
         <Navbar expand="lg" >
             <Navbar.Brand href="/">
-                <img
-                src="/g-red.png"
-                width="41"
-                height="45"
-                className="d-inline-block align-top"
-                alt=" "
-                />
-              ichero 
+                <GoHome/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">

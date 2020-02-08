@@ -1,5 +1,5 @@
 import React from 'react';
-import Card, { CardBody, CardTitle } from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 
 export const Projects = () => (

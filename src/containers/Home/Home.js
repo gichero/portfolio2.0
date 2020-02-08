@@ -13,7 +13,6 @@ const Styles = styled.div`
         float: left;
         padding:10px;
     }
-    
 `;
 
 export const Home = () => (
@@ -21,11 +20,6 @@ export const Home = () => (
     <Styles>
         <h2 id="name">Hi, I'm Amos Gichero</h2>
         <p id="intro">
-            <img 
-                id="myImage" 
-                src="/g-red.png" 
-                alt="my image"
-            />
         I'm a Full Stack Web Developer living in Atlanta, GA. 
         I'm originally from New Orleans and attended the University of Georgia
         for my undergraduate degree where I majored in Psychology. 
