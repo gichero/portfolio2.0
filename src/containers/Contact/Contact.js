@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { IoLogoLinkedin } from "react-icons/io";
-import { IoLogoGithub } from "react-icons/io";
-import { IoIosMail } from "react-icons/io";
+import { FiMail } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+
 
 
 const Styles = styled.div`
@@ -19,6 +20,10 @@ const Styles = styled.div`
 }
 #icon{
     margin: 15px;
+
+    &:hover {
+        color: #e61010;
+    }
 }
 `;
 
@@ -29,9 +34,9 @@ export const Contact = () => (
         I'd look forward to connect with you! I can be reached via email or any social media outlets. You can also check out my GitHub account to see more of my work, or download my resume to get information about my professional background.
         </p>
         <div id="icons">
-        <IoIosMail id="icon"/>
-        <IoLogoLinkedin id="icon"/>
-        <IoLogoGithub id="icon"/>
+        <FiMail id="icon"/>
+        <FiLinkedin id="icon"/>
+        <FiGithub id="icon"/>
         </div>
         
         

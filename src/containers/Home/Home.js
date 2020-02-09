@@ -20,10 +20,10 @@ export const Home = () => (
     <Styles>
         <h2 id="name">Hi, I'm Amos Gichero</h2>
         <p id="intro">
-        I'm a Full Stack Web Developer living in Atlanta, GA. 
-        I'm originally from New Orleans and attended the University of Georgia
-        for my undergraduate degree where I majored in Psychology. 
-        Upon graduation I moved to Washington, DC and began working on Capitol Hill for David Vitter, a US Senator from Louisiana. 
+        I'm a Full Stack Web Developer living in Jacksonville, FL. 
+        I'm originally from Atlanta by way of Australia where I attended the University of Canberra
+        for my undergraduate degree where I majored in Information Systems and Business. 
+        Upon graduation I moved to Nairobi, Kenya and began working on Capitol Hill for David Vitter, a US Senator from Louisiana. 
         After many years in the political realm I decided I was ready for a new challenge. 
         I've always loved science and technology so web development was a perfect fit for my next endeavor.
         I spent a year teaching myself coding through online tutorials (and a lot of trial and error!)

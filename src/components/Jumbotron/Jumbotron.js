@@ -1,17 +1,18 @@
 import React from 'react';
 import {Jumbotron as Jumbo} from 'react-bootstrap';
 import styled from 'styled-components';
-import grayscaleCrop from '../../assets/backgroundImages/grayscaleCrop.jpg';
+import grayscale from '../../assets/backgroundImages/grayscale.jpg';
 
 
 const Styles = styled.div`
     .jumbo{
-        background: url(${grayscaleCrop}) no-repeat fixed bottom;
+        background: url(${grayscale}) no-repeat fixed bottom;
         background-size: cover;
         color: #ccc;
-        height:400px;
+        width:100
+        height:1200px;
         position: relative;
-        z-index: -2;
+        z-index: -3;
     }
     .overlay{
         background-color: #000;
