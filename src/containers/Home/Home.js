@@ -7,7 +7,8 @@ const Styles = styled.div`
     }
     #intro{
         text-align: left;
-        line-height: 2;  
+        line-height: 1.5;
+        font-size: 1.2em;  
     }
     #myImage{
         float: left;

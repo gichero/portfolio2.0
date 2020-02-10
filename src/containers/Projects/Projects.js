@@ -9,7 +9,8 @@ const Styles = styled.div`
 }
 #projects-intro{
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
+    font-size: 1.2em;
     margin: 20px auto 30px auto;
 }
 `

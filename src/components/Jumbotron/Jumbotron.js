@@ -11,6 +11,7 @@ const Styles = styled.div`
         color: #ccc;
         height: 550px;
         position: relative;
+        z-index: -2;
     }
     .overlay{
         background-color: #000;
@@ -20,10 +21,11 @@ const Styles = styled.div`
         left: 0;
         bottom: 0;
         right: 0;
+        z-index: -1;
     }
     #quote{
         color: yellow;
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: 500;
         font-style: italic;
         text-align: center;
@@ -35,7 +37,7 @@ export const Jumbotron = () => (
     <Styles>
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
-            <p id="quote">Difficulties strengthen the mind, as labor does the body. 'Seneca'</p>
+            <p id="quote">It is a rough road that leads to the heights of greatness. 'Seneca'</p>
         </Jumbo>
     </Styles>
 )

@@ -8,7 +8,6 @@ const Styles = styled.div`
  .navbar {
      background-color: #000000;
      border-radius: 1px;
-     z-index: -20;
  }
 
  .navbar-nav .nav-link{
@@ -20,7 +19,7 @@ const Styles = styled.div`
      margin-right: 20px;
      text-align: center;
 
-     &:hover {
+     &:hover, &:active {
          color: #e61010;
      }
  }
@@ -32,8 +31,7 @@ const Styles = styled.div`
     padding: 5px;
     margin-left: 20px;
    
-
-    &:hover :active{
+    &:hover, &:active{
         color: #e61010;
     }
  }
