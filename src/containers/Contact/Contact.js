@@ -14,12 +14,13 @@ const Styles = styled.div`
     text-align: center;
     line-height: 2;  
 }
-#icons{
+#contact-icons{
     text-align: center;
     font-size: 3em;
 }
 #icon{
     margin: 15px;
+    color: black;
 
     &:hover {
         color: #e61010;
@@ -31,12 +32,19 @@ export const Contact = () => (
     <Styles>
         <h2 id="contact">Contact</h2>
         <p id="intro">
-        I'd look forward to connect with you! I can be reached via email or any social media outlets. You can also check out my GitHub account to see more of my work, or download my resume to get information about my professional background.
+        I'd look forward to connect with you! I can be reached via email or any social media outlets. 
+        You can also check out my GitHub account to see more of my work, or download my resume to get information about my professional background.
         </p>
-        <div id="icons">
-        <FiMail id="icon"/>
-        <FiLinkedin id="icon"/>
-        <FiGithub id="icon"/>
+        <div id="contact-icons">
+            <a href="mailto:amosgichero@gmail.com">
+            <FiMail id="icon"/>
+            </a>
+            <a href="https://www.linkedin.com/in/amos-gichero-579913a4/" target="_blank" rel="noopener noreferrer">
+            <FiLinkedin id="icon"/>
+            </a>
+            <a href="https://github.com/gichero" target="_blank" rel="noopener noreferrer">
+            <FiGithub id="icon"/>
+            </a>  
         </div>
         
         

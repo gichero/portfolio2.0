@@ -1,9 +1,17 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
+import styled from 'styled-components';
+
+const Styles = styled.div`
+#projects{
+    text-align: center;
+}
+`
 
 export const Projects = () => (
-
+    <Styles>
+    <h2 id="projects">Projects</h2>
     <CardColumns>
         <Card>
             <Card.Body>
@@ -24,7 +32,7 @@ export const Projects = () => (
             </Card.Body>
         </Card>
     </CardColumns>
-        
+    </Styles>    
    
 )
 
