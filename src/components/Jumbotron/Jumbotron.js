@@ -9,10 +9,9 @@ const Styles = styled.div`
         background: url(${grayscale}) no-repeat fixed bottom;
         background-size: cover;
         color: #ccc;
-        width:100
-        height:1200px;
+        height: 550px;
         position: relative;
-        z-index: -3;
+        z-index: -2;
     }
     .overlay{
         background-color: #000;
@@ -29,8 +28,8 @@ const Styles = styled.div`
         font-size: 0.9em;
         font-weight: 500;
         font-style: italic;
-        padding: 25px;
-        margin-top: 250px;
+        text-align: center;
+        margin-top: 400px;
     }
 `;
 

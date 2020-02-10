@@ -7,11 +7,20 @@ const Styles = styled.div`
 #projects{
     text-align: center;
 }
+#projects-intro{
+    text-align: center;
+    line-height: 2;
+    margin: 20px auto 30px auto;
+}
 `
 
 export const Projects = () => (
     <Styles>
     <h2 id="projects">Projects</h2>
+    <p id="projects-intro">I love feedback! If you have any comments or questions about any of my projects please get in touch.
+    My contact information can be found in the contact page.
+    </p> 
+     
     <CardColumns>
         <Card>
             <Card.Body>

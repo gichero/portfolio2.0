@@ -13,7 +13,7 @@ const Styles = styled.div`
  .navbar-nav .nav-link{
      color: white;
      font-size: 1.2em;
-     font-weight: 300;
+     font-weight: 400;
      padding: 15px;
      margin-left: 20px;
      margin-right: 20px;
@@ -32,7 +32,7 @@ const Styles = styled.div`
     margin-left: 20px;
    
 
-    &:hover {
+    &:hover :active{
         color: #e61010;
     }
  }
@@ -45,7 +45,7 @@ const Styles = styled.div`
 `;
 
 export const NavigationBar = () => (
-    <Styles>
+    <Styles  className="sticky-top">
         <Navbar expand="lg" >
             <Navbar.Brand href="/">
                 <GoHome/>
