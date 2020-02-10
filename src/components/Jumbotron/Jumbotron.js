@@ -11,7 +11,6 @@ const Styles = styled.div`
         color: #ccc;
         height: 550px;
         position: relative;
-        z-index: -2;
     }
     .overlay{
         background-color: #000;
@@ -21,7 +20,6 @@ const Styles = styled.div`
         left: 0;
         bottom: 0;
         right: 0;
-        z-index: -1;
     }
     #quote{
         color: yellow;

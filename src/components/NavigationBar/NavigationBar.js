@@ -8,6 +8,7 @@ const Styles = styled.div`
  .navbar {
      background-color: #000000;
      border-radius: 1px;
+     z-index: -20;
  }
 
  .navbar-nav .nav-link{
