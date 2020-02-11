@@ -39,25 +39,23 @@ export const Contact = () => (
         You can also check out my GitHub account to see more of my work, or download my resume to get information about my professional background.
         </p>
         <div id="contact-icons">
-            <a href="mailto:amosgichero@gmail.com" target="_blank" rel="noopener noreferrer" data-tip="email">
+            <a href="mailto:amosgichero@gmail.com" target="_blank" rel="noopener noreferrer" data-tip="Email">
             <ReactTooltip place="top" type="dark" effect="float"/>
             <FiMail id="icon"/>
             </a>
-            <a href="https://www.linkedin.com/in/amos-gichero-579913a4/" target="_blank" rel="noopener noreferrer" data-tip="linkedIn">
+            <a href="https://www.linkedin.com/in/amos-gichero-579913a4/" target="_blank" rel="noopener noreferrer" data-tip="LinkedIn">
             <ReactTooltip place="top" type="dark" effect="float"/>
             <FiLinkedin id="icon"/>
             </a>
-            <a href="https://github.com/gichero" target="_blank" rel="noopener noreferrer" data-tip="github">
+            <a href="https://github.com/gichero" target="_blank" rel="noopener noreferrer" data-tip="Github">
             <ReactTooltip place="top" type="dark" effect="float"/>
             <FiGithub id="icon"/>
             </a>
             {/* include resume file in pdf format */}
-            <a href="https://github.com/gichero" target="_blank" rel="noopener noreferrer" data-tip="resume">
+            <a href="https://github.com/gichero" target="_blank" rel="noopener noreferrer" data-tip="Resume">
             <ReactTooltip place="top" type="dark" effect="float"/>
             <FiFileText id="icon"/>
             </a>    
         </div>
-        
-        
     </Styles>
 )

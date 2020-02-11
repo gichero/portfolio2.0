@@ -21,8 +21,7 @@ function App() {
             <Route path="/contact" component={Contact}/>
           </Switch>
         </Router>
-      </Layout>
-      
+      </Layout>  
     </React.Fragment>
   );
 }
